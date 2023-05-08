@@ -1,0 +1,167 @@
+nav {
+	background-color: #12242E;
+	height: 60px;
+    margin-top: 0 !important;
+}
+.reflection {
+    position: relative;
+    display: inline-block;
+    font-size: 36;
+    color: white;
+    background-color: transparent;
+ 
+  }
+  
+  .reflection:after {
+    content: "Neel Ramesh";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    width: 100%;
+    height: 70%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+    /* background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0)); */
+    transform: scaleY(-1);
+    opacity: 0.5;
+  
+   
+  }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;   
+}
+
+li {
+	float: left;
+    
+}
+
+li.right {
+	float: right;
+    font-family: Ubuntu;
+}
+li b {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 16px 16px 16px;
+	text-decoration: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 16px 16px 16px;
+	text-decoration: none;
+}
+
+
+li a:hover {
+	background-color: #88CCB6;
+
+}
+li c:hover {
+	background-color: #88CCB6;
+
+}
+body {
+   
+    background-color: #12242E;
+        
+        
+    
+}
+img {
+	
+	margin: 0 auto;
+
+	max-width: 100%;
+ 
+	height: auto;
+}
+.text-overlay {
+	position: absolute;
+	top: 31.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+  resize: both;
+    
+}
+.image-container{
+  width: 100%;
+  margin: 0 auto;
+}
+.text-overlay h1 {
+
+	font-size: 6vmax;
+	margin-top: 0;
+    max-width: 100%;
+    background-color: transparent;
+    border: none;
+    
+   
+}
+.text-overlay p{
+  font-size: 1vmax;
+  max-width: 100%;
+  height: auto;
+}
+.projects {
+    display: flex; /* Use flexbox to align image and text horizontally */
+    align-items: top; /* Center the items vertically */
+    margin-top: 20px; /* Add space between nav bar and image */
+  }
+  .ProjectImage {
+    max-width: 50%;
+    margin-right: 40px;
+    border-style:groove;
+    border-color: #88CCB6;
+    }
+  
+  
+  .projecttext {
+   
+    color: white;
+    display: flex;
+    flex-direction: column;  
+    
+    
+  }
+  
+  .projecttext h2 {
+    color: white;
+    margin-top: 0; /* Remove default margin */
+    margin-top: 10px;
+  }
+  .projecttext p{
+    margin-top: 0;
+	font-size: 1em;
+	margin-bottom: 0;
+  }
+
+
+
+  button {
+    background-color: transparent;
+    background-image: url('github-mark-white.png');
+    background-size: cover;
+    border: none;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
